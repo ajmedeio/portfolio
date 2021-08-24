@@ -15,7 +15,7 @@ export default function App() {
 
     return (
         <>
-            <Router>
+            <Router basename='/portfolio'>
                 <Nav/>
                 <Switch>
                     <Route exact path="/"><About/></Route>
