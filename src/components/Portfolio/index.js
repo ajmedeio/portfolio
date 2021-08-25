@@ -1,61 +1,62 @@
 import React from 'react'
 import Project from '../Project'
 
+const style = {
+    host: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        margin: '64px auto',
+        maxWidth: '1024px',
+        padding: '5px'
+    }
+}
+
 export default function Portfolio() {
     const projects = [
         {
+            name: 'Kid Claw',
+            site: 'https://twitter.com/ClawDynamics',
+            repo: 'https://github.com/ajmed/kid-claw-s1-e1',
+            imgSrc: require('../../assets/projects/kid-claw-banner.jpeg').default
+        },
+        {
             name: 'biobell',
             site: '',
-            repo: ''
+            repo: '',
+            imgSrc: require('../../assets/projects/biobell-banner.jpeg').default
         },
         {
             name: "∇brüd",
-            site: "brud.projectdel.com",
-            repo: ''
+            site: "https://brud.projectdel.com/account",
+            repo: '',
+            imgSrc: require('../../assets/projects/brud-banner.png').default
         },
         {
             name: "Project ∇",
-            site: "projectdel.com",
-            repo: ''
-        },
-        {
-            name: "Explaining Relativity",
-            site: "",
-            repo: ''
+            site: "https://projectdel.com",
+            repo: '',
+            imgSrc: require('../../assets/projects/projectdel-banner.png').default
         },
         {
             name: "Blink",
             site: "",
-            repo: 'https://github.com/ajmed/blink'
+            repo: 'https://github.com/ajmed/blink',
+            imgSrc: require('../../assets/projects/blink-banner.png').default
         },
         {
-            name: "HandSight Color/Texture Module",
-            site: "",
-            repo: ''
-        },
-        {
-            name: "Homemade Radio Transmitter/Receiver",
+            name: 'LyriCloud',
             site: '',
-            repo: ''
-        },
-        {
-            name: "LyriCloud",
-            site: "",
-            repo: ''
-        },
-        {
-            name: "Search Audio By Text",
-            site: "",
-            repo: ''
+            repo: 'https://github.com/ajmed/lyricloud',
+            imgSrc: require('../../assets/projects/lyricloud-banner.png').default
         },
     ]
     return (
-        <>
-            <div>Portfolio</div>
-            <div>list some projects</div>
+        <div style={style.host}>
             {projects.map((project, index) =>
                 <Project project={project}/>
             )}
-        </>
+        </div>
     )
 }

@@ -2,9 +2,10 @@ import React from 'react'
 import {Link, useLocation} from 'react-router-dom'
 
 const styles = {
-    header: {
+    host: {
         textAlign: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginBottom: '64px'
     },
     navActive: {
         color: 'orange'
@@ -22,7 +23,7 @@ const Nav = (props) => {
     }
 
     return (
-        <header style={styles.header} className="flex-row px-1">
+        <header style={styles.host} className="flex-row px-1">
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
