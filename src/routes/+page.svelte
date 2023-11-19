@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <section id="about-container">
     <h1 id="about">Alexander J Medeiros (@ajmedeio)</h1>
     <img alt="profile" src="profile-circle.png" class="profile-img mx-1" />
