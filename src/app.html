@@ -1,9 +1,17 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
 
-main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
-}
+<style>
 :root {
   --primary: #8c54aa;
   --secondary: #F3A847;
@@ -233,7 +241,7 @@ textarea {
   margin-bottom: 50px;
 }
 
-.modalBackdrop {
+.modal-backdrop {
 	background: rgba(0, 0, 0, .65);
 	bottom: 0;
 	left: 0;
@@ -244,7 +252,7 @@ textarea {
 	z-index: 1;
 }
 
-.modalContainer {
+.modal-container {
 	background: var(--darker);
 	border-radius: 5px;
 	max-width: 100%;
@@ -253,7 +261,7 @@ textarea {
 	width: 960px;
 }
 
-.modalTitle {
+.modal-title {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 25px;
@@ -281,6 +289,7 @@ a {
   white-space: nowrap;
 }
 
-.navActive {
+.nav-active {
   color: var(--secondary);
 }
+</style>
