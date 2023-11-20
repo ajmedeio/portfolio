@@ -1,4 +1,6 @@
 ---
 title: Home
 ---
-My [[about]] page
+## [[about|About]]
+## [[projects|Projects]]
+## [[resume|Resume]]
