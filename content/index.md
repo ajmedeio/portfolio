@@ -1,4 +1,4 @@
 ---
 title: Home
 ---
-My [[About]] page
+My [[about]] page
