@@ -1,22 +1,21 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "@ajmedeio/portfolio",
+  "description": "Uses an obsidian notebook to create the portfolio",
   "private": true,
-  "version": "4.1.1",
+  "version": "1.0.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "ajmedeio <ajmed13@gmail.com>",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://ajmede.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/ajmedeio/portfolio.git"
   },
   "scripts": {
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
-    "test": "tsx ./quartz/util/path.test.ts",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "test": "tsx ./quartz/util/path.test.ts"
   },
   "engines": {
     "npm": ">=9.3.1",
@@ -27,8 +26,7 @@
     "ssg",
     "digital-garden",
     "markdown",
-    "blog",
-    "quartz"
+    "blog"
   ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
