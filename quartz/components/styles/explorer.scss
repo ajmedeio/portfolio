@@ -152,7 +152,7 @@ svg {
     left: calc(100% - 30px);
     height: 100%;
     width: 30px;
-    //background-image : -webkit-linear-gradient(to right, rgba(#{$bg-color}, 0), #{$bg-color});
+    background-image : -webkit-linear-gradient(to right, $start-color, $end-color);
     background-image : linear-gradient(to right, $start-color, $end-color);
   }
 }

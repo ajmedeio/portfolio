@@ -457,7 +457,7 @@ video {
 
 ul.overflow,
 ol.overflow {
-  max-height: 400;
+  //max-height: 400;
   overflow-y: auto;
 
   // clearfix
@@ -478,7 +478,7 @@ ol.overflow {
     bottom: 0;
     opacity: 1;
     transition: opacity 0.3s ease;
-    background: linear-gradient(transparent 0px, var(--light));
+    //background: linear-gradient(transparent 0px, var(--light));
   }
 }
 
