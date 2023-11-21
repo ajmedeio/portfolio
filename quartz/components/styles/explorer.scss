@@ -84,7 +84,7 @@ svg {
   & div > a {
     color: var(--secondary);
     font-family: var(--headerFont);
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1.5rem;
     display: inline-block;
@@ -107,7 +107,7 @@ svg {
     font-family: var(--headerFont);
 
     & p {
-      font-size: 0.95rem;
+      font-size: 1rem;
       display: inline-block;
       color: var(--secondary);
       font-weight: 600;
@@ -126,10 +126,6 @@ svg {
   backface-visibility: visible;
 }
 
-div:has(> .folder-outer:not(.open)) > .folder-container > svg {
-  transform: rotate(-90deg);
-}
-
 .folder-icon:hover {
   color: var(--tertiary);
 }
@@ -143,4 +139,27 @@ div:has(> .folder-outer:not(.open)) > .folder-container > svg {
   height: 4px;
   // remove default margin from li
   margin: 0;
+}
+
+
+@mixin fade-in-ellipsis($start-color, $end-color) {
+  position: relative;
+  max-width: 100%;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(100% - 30px);
+    height: 100%;
+    width: 30px;
+    //background-image : -webkit-linear-gradient(to right, rgba(#{$bg-color}, 0), #{$bg-color});
+    background-image : linear-gradient(to right, $start-color, $end-color);
+  }
+}
+
+.filename {
+  display: block;
+  @include fade-in-ellipsis(rgba(var(--lightRgb), 0), var(--light));
+  white-space: nowrap;
+  overflow: hidden;
 }

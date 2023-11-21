@@ -1,7 +1,9 @@
 export interface ColorScheme {
   light: string
+  lightRgb: string
   lightgray: string
   gray: string
+  darkRgb: string
   darkgray: string
   dark: string
   secondary: string
@@ -36,10 +38,12 @@ ${stylesheet.join("\n\n")}
 
 :root {
   --light: ${theme.colors.lightMode.light};
+  --lightRgb: ${theme.colors.lightMode.lightRgb};
   --lightgray: ${theme.colors.lightMode.lightgray};
   --gray: ${theme.colors.lightMode.gray};
   --darkgray: ${theme.colors.lightMode.darkgray};
   --dark: ${theme.colors.lightMode.dark};
+  --darkRgb: ${theme.colors.lightMode.darkRgb};
   --secondary: ${theme.colors.lightMode.secondary};
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
@@ -51,10 +55,12 @@ ${stylesheet.join("\n\n")}
 
 :root[saved-theme="dark"] {
   --light: ${theme.colors.darkMode.light};
+  --lightRgb: ${theme.colors.darkMode.lightRgb};
   --lightgray: ${theme.colors.darkMode.lightgray};
   --gray: ${theme.colors.darkMode.gray};
   --darkgray: ${theme.colors.darkMode.darkgray};
   --dark: ${theme.colors.darkMode.dark};
+  --darkRgb: ${theme.colors.darkMode.darkRgb};
   --secondary: ${theme.colors.darkMode.secondary};
   --tertiary: ${theme.colors.darkMode.tertiary};
   --highlight: ${theme.colors.darkMode.highlight};

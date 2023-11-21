@@ -158,7 +158,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
-          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
+          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug} class="filename">
             {node.displayName}
           </a>
         </li>
@@ -168,24 +168,23 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
             // Node with entire folder
             // Render svg button + folder name, then children
             <div class="folder-container">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
-                viewBox="5 8 14 8"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="folder-icon"
-              >
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
               {/* render <a> tag if folderBehavior is "link", otherwise render <button> with collapse click event */}
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" ? (
-                  <a href={`${folderPath}`} data-for={node.name} class="folder-title">
+                  <a href={`${folderPath}/`} data-for={node.name} class="folder-title">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="5 8 14 8"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="folder-icon">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
                     {node.displayName}
                   </a>
                 ) : (

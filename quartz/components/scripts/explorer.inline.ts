@@ -82,26 +82,26 @@ function setupExplorer() {
     const collapseBehavior = explorer.dataset.behavior
 
     // Add click handlers for all folders (click handler on folder "label")
-    if (collapseBehavior === "collapse") {
-      Array.prototype.forEach.call(
-        document.getElementsByClassName("folder-button"),
-        function (item) {
-          item.removeEventListener("click", toggleFolder)
-          item.addEventListener("click", toggleFolder)
-        },
-      )
-    }
+    // if (collapseBehavior === "collapse") {
+    //   Array.prototype.forEach.call(
+    //     document.getElementsByClassName("folder-button"),
+    //     function (item) {
+    //       item.removeEventListener("click", toggleFolder)
+    //       item.addEventListener("click", toggleFolder)
+    //     },
+    //   )
+    // }
 
     // Add click handler to main explorer
-    explorer.removeEventListener("click", toggleExplorer)
-    explorer.addEventListener("click", toggleExplorer)
+    // explorer.removeEventListener("click", toggleExplorer)
+    // explorer.addEventListener("click", toggleExplorer)
   }
 
   // Set up click handlers for each folder (click handler on folder "icon")
-  Array.prototype.forEach.call(document.getElementsByClassName("folder-icon"), function (item) {
-    item.removeEventListener("click", toggleFolder)
-    item.addEventListener("click", toggleFolder)
-  })
+  // Array.prototype.forEach.call(document.getElementsByClassName("folder-icon"), function (item) {
+  //   item.removeEventListener("click", toggleFolder)
+  //   item.addEventListener("click", toggleFolder)
+  // })
 
   if (storageTree && useSavedFolderState) {
     // Get state from localStorage and set folder state

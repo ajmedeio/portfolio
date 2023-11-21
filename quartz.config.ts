@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Alexander Joseph Medeiros",
+    pageTitle: "alexander J medeiros",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -21,20 +21,24 @@ const config: QuartzConfig = {
       colors: {
         lightMode: {
           light: "#faf8f8",
+          lightRgb: "250, 248, 248",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
+          darkRgb: "43, 43, 43",
           secondary: "#284b63",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
           light: "#161618",
+          lightRgb: "22, 22, 24",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
+          darkRgb: "235, 235, 236",
           secondary: "#7b97aa",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
