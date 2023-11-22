@@ -1,5 +1,6 @@
 ---
 title: Kid Claw
-tags: project
+tags: ezra-studios, computer-science
 ---
 Kenneth Claw comin' atcha!
+[[kid-claw-banner.jpeg]]

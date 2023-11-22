@@ -1,4 +1,4 @@
 ---
 title: HandSight
-tags: research, project
+tags: research, umd, computer-science
 ---

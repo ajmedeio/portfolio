@@ -1,4 +1,5 @@
 ---
 title: Project Del
-tags: organization
+tags: company, startup
 ---
+[[projectdel-banner.png]]
