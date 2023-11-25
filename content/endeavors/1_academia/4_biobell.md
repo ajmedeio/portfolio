@@ -1,6 +1,6 @@
 ---
 title: Biobell
-tags: umd, computer-science, project-del
+tags: umd, project-del
 ---
 ![[biobell-banner.jpeg]]
 
