@@ -22,6 +22,7 @@ export default (() => {
         <meta property="og:description" content={description} />
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         {css.map((href) => (

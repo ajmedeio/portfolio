@@ -2,7 +2,7 @@
 title: Philanthropist of the Year Award Presenter Speech
 tags: ritas-closet
 ---
-It was August 24th, 2023
+TODO: add context and link to the foundation's website and picture of night
 
 Good evening everyone!  
   
