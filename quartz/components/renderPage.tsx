@@ -199,7 +199,7 @@ export function renderPage(
     <html>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <div id="splash-screen" class="hidden-splash">
+        <div id="splash-screen" class="hidden-splash" spa-preserve="true">
           <lottie-player id="splash-screen-animation" src="/assets/splash-screen-animation.json" background="transparent" speed="1" autoplay></lottie-player>
           <div id="enter-site">(click anywhere to enter)</div>
           <script>

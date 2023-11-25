@@ -9,12 +9,8 @@ Goal: Establish systems that optimally rejuvenate and fulfill.
 
 Path: Systematically connect us with personalized sources of awe, joy, and challenge.
 
-(in as few words as possible)
+Please, have a look around, I'm particularly fond of the [[endeavors/index|Endeavors]] section where you'll find some of my works. Or, for a consolidated view of my experiences, check out my [[2_resume|Resume]].
 
----
-
-Please, have a look around, I'm particularly fond of the [[endeavors/index|Endeavors]] section where you'll find some of my works.
-
-Words *and* their absence have meaning and naming is important. If we structure a thought correctly, categorize and store it appropriately, it might be remembered far after we're gone.
+If we structure a thought correctly, categorize and store it appropriately, it might be remembered far after we're gone.
 
 ---
