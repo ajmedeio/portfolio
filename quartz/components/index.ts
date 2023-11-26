@@ -1,3 +1,4 @@
+import SplashScreen from "./SplashScreen"
 import Content from "./pages/Content"
 import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
@@ -21,6 +22,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 
 export {
+  SplashScreen,
   ArticleTitle,
   Content,
   TagContent,
