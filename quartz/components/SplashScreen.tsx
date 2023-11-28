@@ -23,7 +23,7 @@ function SplashScreen() {
   return (
     <div id="splash-screen" class="hidden-splash" spa-preserve="true">
         {/* @ts-ignore */}
-        <lottie-player id="splash-screen-animation" src="/assets/splash-screen-animation.json" background="transparent" speed="1.5" autoplay></lottie-player>
+        <dotlottie-player id="splash-screen-animation" src="/assets/splash-screen-animation.lottie" background="transparent" speed="1" direction="1" mode="normal" autoplay></dotlottie-player>
         <div id="enter-site">(click anywhere to enter)</div>
         <script>{splashScreenScript()}</script>
     </div>
