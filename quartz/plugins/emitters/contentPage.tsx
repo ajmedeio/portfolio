@@ -2,6 +2,10 @@ import { QuartzEmitterPlugin } from "../types"
 import { QuartzComponentProps } from "../../components/types"
 import HeaderConstructor from "../../components/Header"
 import BodyConstructor from "../../components/Body"
+import SearchConstructor from "../../components/Search"
+import DarkmodeConstructor from "../../components/Darkmode"
+import DrawerToggleConstructor from "../../components/DrawerToggle"
+import SplashScreenConstructor from "../../components/SplashScreen"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FilePath, pathToRoot } from "../../util/path"
@@ -17,14 +21,40 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
     ...userOpts,
   }
 
-  const { head: Head, header, beforeBody, pageBody, left, right, footer: Footer } = opts
+  const { 
+    head: Head,
+    header,
+    beforeBody,
+    pageBody, 
+    left, 
+    right, 
+    footer: Footer 
+  } = opts
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
+  const Search = SearchConstructor()
+  const DrawerToggle = DrawerToggleConstructor()
+  const Darkmode = DarkmodeConstructor()
+  const SplashScreen = SplashScreenConstructor()
 
   return {
     name: "ContentPage",
     getQuartzComponents() {
-      return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer]
+      return [
+        Head,
+        Header,
+        Search,
+        Darkmode,
+        SplashScreen,
+        DrawerToggle,
+        Body,
+        ...header,
+        ...beforeBody,
+        pageBody,
+        ...left,
+        ...right,
+        Footer
+      ]
     },
     async emit(ctx, content, resources, emit): Promise<FilePath[]> {
       const cfg = ctx.cfg.configuration

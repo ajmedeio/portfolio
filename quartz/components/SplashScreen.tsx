@@ -25,9 +25,40 @@ function SplashScreen() {
         {/* @ts-ignore */}
         <dotlottie-player id="splash-screen-animation" src="/assets/splash-screen-animation.lottie" background="transparent" speed="1" direction="1" mode="normal" autoplay></dotlottie-player>
         <div id="enter-site">(click anywhere to enter)</div>
-        <script>{splashScreenScript()}</script>
+        <script spa-preserve="true">{splashScreenScript()}</script>
     </div>
   )
 }
+
+SplashScreen.css = `
+#splash-screen {
+    z-index: 1000;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%; 
+    transform: translate(-50%,-50%);
+    background-color: #161618;
+    transition: all ease-in-out 300ms;
+  }
+  
+  #enter-site {
+    position: fixed;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #splash-screen-animation {
+    margin: 0 auto;
+    height: 50%;
+  }
+  
+  .hidden-splash {
+    display: none;
+  }
+`
 
 export default (() => SplashScreen) satisfies QuartzComponentConstructor

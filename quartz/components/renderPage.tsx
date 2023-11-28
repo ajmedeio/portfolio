@@ -2,14 +2,19 @@ import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
+import SearchConstructor from "./Search"
+import DrawerToggleConstructor from "./DrawerToggle"
+import DarkmodeConstructor from "./Darkmode"
+import SplashScreenConstructor from "./SplashScreen"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments } from "../util/path"
 import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 
 interface RenderComponents {
-  head: QuartzComponent
   splashScreen: QuartzComponent
+  actionBar: QuartzComponent[]
+  head: QuartzComponent
   header: QuartzComponent[]
   beforeBody: QuartzComponent[]
   pageBody: QuartzComponent
@@ -151,7 +156,6 @@ export function renderPage(
 
   const {
     head: Head,
-    splashScreen: SplashScreen,
     header,
     beforeBody,
     pageBody: Content,
@@ -161,6 +165,10 @@ export function renderPage(
   } = components
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
+  const DrawerToggle = DrawerToggleConstructor()
+  const SplashScreen = SplashScreenConstructor()
+  const Search = SearchConstructor()
+  const Darkmode = DarkmodeConstructor()
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -183,6 +191,11 @@ export function renderPage(
       <Head {...componentData} />
       <body data-slug={slug}>
         <SplashScreen {...componentData} />
+        <div id="action-bar">
+          <DrawerToggle {...componentData} />
+          <Search {...componentData} />
+          <Darkmode {...componentData} />
+        </div>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
@@ -200,10 +213,11 @@ export function renderPage(
                 </div>
               </div>
               <Content {...componentData} />
+              <hr></hr>
+              {RightComponent}
+              <Footer {...componentData} />
             </div>
-            {RightComponent}
           </Body>
-          <Footer {...componentData} />
         </div>
       </body>
       {pageResources.js

@@ -78,7 +78,7 @@ document.addEventListener("nav", async (e: unknown) => {
 
   const data = await fetchData
   const container = document.getElementById("search-container")
-  const sidebar = container?.closest(".sidebar") as HTMLElement
+  const sidebar = document.querySelector(".sidebar") as HTMLElement
   const searchIcon = document.getElementById("search-icon")
   const searchBar = document.getElementById("search-bar") as HTMLInputElement | null
   const results = document.getElementById("results-container")
