@@ -45,9 +45,7 @@ export function PageList({ cfg, fileData, allFiles, limit }: Props) {
           <li class="section-li">
             <div class="section">
               {page.dates && (
-                <p class="meta">
-                  <Date date={getDate(cfg, page)!} />
-                </p>
+                <p class="meta">-</p>
               )}
               <div class="desc">
                 <h3>

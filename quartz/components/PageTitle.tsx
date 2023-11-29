@@ -9,11 +9,9 @@ function PageTitle({ fileData, cfg, displayClass }: QuartzComponentProps) {
   return (
     <div class="page-title-container">
       <a href={baseDir}>
-        <h1 class={`page-title ${displayClass ?? ""}`}>
-          <img id="profile-circle" alt="profile" src="/assets/profile-circle.png"/>
-          <a href={baseDir}>{title}</a>
-        </h1>
+        <img id="profile-circle" alt="profile" src="/assets/profile-circle.png"/>
       </a>
+      <a href={baseDir} style="font-size: 1.75rem; text-align: center; margin-top: 4px">{title}</a>
     </div>
   )
 }
@@ -22,6 +20,8 @@ PageTitle.afterDOMLoaded = script
 PageTitle.css = `
 .page-title-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .page-title {
   display: flex;
