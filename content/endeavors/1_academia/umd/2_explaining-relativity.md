@@ -15,15 +15,15 @@ Then we'll need an introduction to time-dilation:
 
 Now that we're introduced some prior knowledge, we can start observing a neutral wire:
 <iframe src="Neutral-Wire.html" width="550" height="400"></iframe>
-
+<br />
 <iframe src="Neutral-Wire-Rearranged.html" width="550" height="400"></iframe>
-
+<br />
 <iframe src="Compass-Deflection-Observation.html" width="550" height="400"></iframe>
-
+<br />
 <iframe src="Explanation-of-Observation.html" width="550" height="400"></iframe>
-
+<br />
 <iframe src="Positive-Reference-Frame.html" width="550" height="400"></iframe>
-
+<br />
 <iframe src="Wire-is-Positive.html" width="550" height="400"></iframe>
-
+<br />
 <iframe src="Magnetic-Field.html" width="550" height="400"></iframe>
