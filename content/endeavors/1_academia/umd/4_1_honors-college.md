@@ -2,4 +2,4 @@
 title: Honors College
 tags: dcc, umd
 ---
-Digital Cultures & Creativity
+Design Cultures & Creativity

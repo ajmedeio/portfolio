@@ -1,6 +1,6 @@
 ---
 title: Monitoring of Interactions Using Eye Tracking
-tags: capital-one
+tags: capital-one, patent
 ---
 This was my first patent!
 
