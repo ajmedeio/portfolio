@@ -10,10 +10,10 @@ To explain relativistic electricity and magnetism we need a little prior knowled
 <iframe src="Length-Contraction.html" width="550" height="400"></iframe>
 
 
-Then we'll need an introduction to time-dilation:
+Second, an introduction to time-dilation:
 <iframe src="Time-Dilation.html" width="550" height="400"></iframe>
 
-Now that we're introduced some prior knowledge, we can start observing a neutral wire:
+Now, we can start observing a neutral wire:
 <iframe src="Neutral-Wire.html" width="550" height="400"></iframe>
 <br />
 <iframe src="Neutral-Wire-Rearranged.html" width="550" height="400"></iframe>
