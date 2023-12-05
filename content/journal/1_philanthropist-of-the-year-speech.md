@@ -2,9 +2,11 @@
 title: Philanthropist of the Year Award Presenter Speech
 tags: ritas-closet
 ---
-TODO: add context and link to the foundation's website and picture of night
+> [!info] INCOMPLETE
+> 
+> Add context and link to the foundation's website and picture of night
 
-Good evening everyone!  
+Good evening everyone!
   
 My name is Alexander Medeiros and I’m Tamara and Jack Medeiros’ son, the founders of Rita’s Closet. Tonight, I’ve been given the lovely honor of awarding Rita’s Closet and the Rita Medeiros scholarship on behalf of the Community Foundation of Carroll County.  
   
