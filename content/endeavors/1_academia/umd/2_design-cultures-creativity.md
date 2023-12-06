@@ -1,5 +1,5 @@
 ---
-title: Honors College
+title: Design Cultures & Creativity
 tags: dcc, umd
 ---
 > [!info] INCOMPLETE

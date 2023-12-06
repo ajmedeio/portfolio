@@ -2,8 +2,8 @@
 title: Ezra Media Studios
 tags: ezra-studios, industry
 ---
-**Position:** Lead Software Engineer
-**Time and Place:** March 2018 - August 2018 | New York, NY
+**Position:** Lead Software Engineer<br/>
+**Time and Place:** March 2018 - August 2018 | New York, NY<br/>
 **Tech Stack:** Arduino | Hand-built circuits | Integrated Circuits (IC)s | C/C++ | Twitch Streaming Platform
 - **What:** Created remote-controllable “episodes” that launched every Friday at 3 pm for audiences of hundreds of live viewers to engage with a story-driven computer learning experience.
 - **How:** Using Arduino hobbyist circuit boards, robotic hands, LED grids, etc. My team enabled Twitch viewers (our audience) to remotely interact with real-life electronics using commands sent in the platform’s chat feature.

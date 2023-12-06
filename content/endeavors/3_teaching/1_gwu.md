@@ -2,7 +2,7 @@
 title: GWU | Software Engineering Instructor
 tags: teaching, gwu
 ---
-**Where:** George Washington University<br/>
+**Organization:** George Washington University<br/>
 **Position:** Software Engineering Instructor<br/>
 **Time and Place:** November 2021 – May 2022 | Washington, DC<br/>
 **Tech Stack:** Node.js | Javascript | React | MySQL | MongoDB<br/>
