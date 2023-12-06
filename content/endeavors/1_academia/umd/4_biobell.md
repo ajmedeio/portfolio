@@ -45,14 +45,10 @@ As with all technology, there are cons to advancement. As previously stated, pur
 
 ## Future Snapshot
 
-Before Biobell:
-
-![[biobell-patient.jpg|450x450]]
-
-After Biobell:
-
 ![[biobell-banner.jpeg|450x450]]
 
 ---
 
 ## Future Vision
+
+TODO
