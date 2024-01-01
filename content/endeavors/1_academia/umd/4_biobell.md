@@ -51,4 +51,4 @@ As with all technology, there are cons to advancement. As previously stated, pur
 
 ## Future Vision
 
-TODO
+TODO from Google drive
