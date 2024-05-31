@@ -1,5 +1,7 @@
 ---
-title: Remarkable on Desktop
-tags: personal, remarkable
+title: Remarkable on Ubuntu
+tags:
+  - personal
+  - remarkable
 ---
-Install [remarkable-desktop](https://snapcraft.io/install/remarkable-desktop/ubuntu#install) as a snap. Then connect the remarkable to the desktop app through [here](https://my.remarkable.com/device/desktop/connect).
+Install <a href="https://snapcraft.io/install/remarkable-desktop/ubuntu#install" target="_blank">remarkable-desktop</a> as a snap. Then connect the remarkable to the desktop app through <a href="https://my.remarkable.com/device/desktop/connect" target="_blank">here</a>.
