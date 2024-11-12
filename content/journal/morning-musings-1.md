@@ -1,6 +1,7 @@
 ---
 title: Morning Musings 1
 tags: journal
+timeline_date: 2024-11-07
 ---
 
 Dear Journal,
