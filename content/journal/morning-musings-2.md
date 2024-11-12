@@ -38,5 +38,5 @@ Anyway, somehow my dream is related to this inner conflict, I think. I must over
 
 I am not forgotten. I am not forsaken. I have love abound...
 
-Sincerely,
+Sincerely,\
 Alex
