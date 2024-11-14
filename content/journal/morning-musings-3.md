@@ -10,7 +10,8 @@ We're rapidly navigating some treacherous territory. Jane asked again, "what is 
 
 "Have you always felt this way during season changes?" Jane asked. As a wave of sadness and existentialism enveloped my body, I spoke, "it was so cold." I remember my 
 hands and feet blue in hue from the cold. My room was slightly underground, and the ground in the winter became frosty and frigid. I was essentially in a fridge all winter as the days
-grew shorter and my studies ramped up. I remember trying to write and hold my pencil during those days. I hated it... but I grew accustomed to the cold. I would wear shorts year round.
+grew shorter and my studies ramped up. I remember trying to write and hold my pencil during those days. Rigid fingers make for rigid writings... but I grew accustomed to the cold.
+I would wear shorts year round.
 Perhaps as a way to brag and say, "you don't know the cold I know..." I think that's what the tattoos on my fingers are. It's a signal, "you don't know what I've been through."
 "You couldn't possibly know my pain..." Very emo, I know, but it really feels like that. I'm approaching 30 and I still feel that way.
 
@@ -32,16 +33,18 @@ Although it's unhealthy to request my wife work less because I feel abandoned, i
 I suppose I'm not a child anymore and it doesn't matter if my wife comes home early or not. I can make my own food. I can make my own fun.
 
 I hate myself because I felt like the world abandoned me. I hate myself because I interpreted my pain as hatred against me. I hate myself because at a very young age
-I learned I was helpless. That I have no control over my father leaving to train soldiers. I believe that's where my sleeping all the time issues came from.
+I learned I was helpless. That I have no control over my father leaving to train soldiers. This was the start of my sleeping issues. I would shut down and sleep
+as a coping mechanism.
 
 Fuck Dr Cardin... I told him there was something wrong with me... I told my doctor what I was supposed to say - I fall asleep all the time and I can't
-control it. Please help me. It's almost funny that people appreciate doctors. I've been to a dozen or more specialists, not a single one could help me. I went to a therapist
+control it. Please help me. I really don't like doctors... I've been to a dozen or more specialists, not a single one helped me. I went to a therapist
 and they knew rather immediately what was wrong. A woman who didn't go to med school or cut open cadavers read a paragraph I wrote about my life and knew I needed to
 talk. God, I just hate our systems so much sometimes. All that said, I'm sure he's a decent doctor, but he really left me behind. Why didn't he know my life,
 why didn't he know I needed a therapist... he was my pediatrician. He was supposed to help me. He was supposed to help me heal. He dismissed my complaints. He dismissed
 me. Do I hate doctors because of him or the other dozen...
 
-Damn...
+In any case, I need to keep exploring this space. Observe the loneliness, don't pick at it. Observe, don't pick. Observe, don't pick. 
+No touch, just watch. No touch, just watch. No touch, just watch.
 
 Sincerely,\
 Alex
