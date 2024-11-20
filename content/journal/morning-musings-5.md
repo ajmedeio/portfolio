@@ -17,8 +17,8 @@ brain child of Alain de Botton, "5 Questions to Ask Yourself Every Evening."
 3. Who has annoyed me and how?
     1. This often arises at the end of the day and we need to vent about them.
 4. What does my body want?
-    5. Much of what we feel, and do not process, manifests in our body.
-    6. What has our body been unfairly burdened with?
+    1. Much of what we feel, and do not process, manifests in our body.
+    1. What has our body been unfairly burdened with?
 5. What is still lovely?
     1. These are often quite small but fortify us against despair. We need to make a conscious effort to squeeze joy out of daily elements.
 
