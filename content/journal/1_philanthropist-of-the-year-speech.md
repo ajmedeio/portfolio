@@ -1,6 +1,6 @@
 ---
 title: Philanthropist of the Year Award Presenter Speech
-tags: ritas-closet
+tags: ritas-closet, journal
 ---
 > [!info] INCOMPLETE
 > 
