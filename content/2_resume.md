@@ -1,4 +1,4 @@
 ---
 title: Resume
 ---
-Please see the consolidated view of my works on my <a href="resume-2023-11-06.pdf" target="_blank">Resume (pdf)</a>.
+Please see the consolidated view of my works on my <a href="resume-2024-11-29.pdf" target="_blank">Resume (pdf)</a>.
