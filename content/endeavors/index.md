@@ -1,3 +1,4 @@
 ---
 title: Endeavors
+publish: true
 ---

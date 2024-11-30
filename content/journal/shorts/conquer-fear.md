@@ -2,6 +2,7 @@
 title: Conquering Fear
 tags: journal
 timeline_date: 2019-05-18
+publish: true
 ---
 
 Got a world in my head

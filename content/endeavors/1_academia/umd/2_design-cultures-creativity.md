@@ -1,6 +1,7 @@
 ---
 title: Design Cultures & Creativity
 tags: dcc, umd
+publish: true
 ---
 > [!info] INCOMPLETE
 > 

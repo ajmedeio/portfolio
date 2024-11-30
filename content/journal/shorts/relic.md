@@ -2,6 +2,7 @@
 title: Relic
 tags: journal
 timeline_date: 2019-05-12
+publish: true
 ---
 
 Girl asks about a relic from my past.

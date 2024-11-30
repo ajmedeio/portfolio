@@ -1,6 +1,7 @@
 ---
 title: Biobell
 tags: umd, project-del, dcc
+publish: true
 ---
 > [!info] INCOMPLETE
 > Pull the articles, audio, etc from google drive

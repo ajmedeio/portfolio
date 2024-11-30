@@ -1,6 +1,7 @@
 ---
 title: GWU | Software Engineering Instructor
 tags: teaching, gwu
+publish: true
 ---
 **Organization:** George Washington University<br/>
 **Position:** Software Engineering Instructor<br/>

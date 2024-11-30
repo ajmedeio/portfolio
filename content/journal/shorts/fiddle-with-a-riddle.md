@@ -2,6 +2,7 @@
 title: Fiddle with a Riddle
 tags: journal
 timeline_date: 2019-05-27
+publish: true
 ---
 
 Gotta escape from the world for a little

@@ -2,6 +2,7 @@
 title: Tower Villas Board of Directors
 tags: tower-villas, advising
 timeline_date: 2022-01-01
+publish: true
 ---
 **Organization:** Tower Villas Council of Co-Owners<br/>
 **Position:** Director & Secretary on Board of Directors<br/>

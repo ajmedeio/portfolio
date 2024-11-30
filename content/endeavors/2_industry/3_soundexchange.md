@@ -1,6 +1,7 @@
 ---
 title: SoundExchange
 tags: soundexchange, industry
+publish: true
 ---
 **Position:** Senior Software Engineer<br/>
 **Time and Place:** September 2020 – June 2022 | Washington, DC<br/>

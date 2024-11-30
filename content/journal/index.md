@@ -1,6 +1,7 @@
 ---
 title: Journal
 tags: journal
+publish: true
 ---
 
 Spending a life studying oneself is a life well lived...

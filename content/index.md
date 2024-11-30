@@ -2,6 +2,7 @@
 title: Home
 tags: root, umd, uw, gwu, capital-one, finra, project-del, jhu-apl, ccctc, soundexchange, tower-villas, ritas-closet
 timeline_date: 2023-11-20
+publish: true
 ---
 ---
 Goal: Establish systems that rejuvenate and fulfill.

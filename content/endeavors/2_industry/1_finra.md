@@ -1,6 +1,7 @@
 ---
 title: FINRA
 tags: finra, industry
+publish: true
 ---
 **Position:** Senior Software Engineering Researcher<br/>
 **Time and Place:** June 2022 – Present | Rockville, MD<br/>

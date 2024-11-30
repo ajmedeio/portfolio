@@ -1,6 +1,7 @@
 ---
 title: Capital One
 tags: capital-one, industry
+publish: true
 ---
 **Position:** Lead Senior Software Engineer<br/>
 **Time and Place:** May 2019 – September 2020 | McLean, VA<br/>

@@ -2,6 +2,7 @@
 title: Tether
 tags: journal
 timeline_date: 2019-05-12
+publish: true
 ---
 
 Please don't dare let go of my tether

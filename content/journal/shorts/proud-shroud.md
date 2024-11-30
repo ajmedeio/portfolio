@@ -2,6 +2,7 @@
 title: Proud Shroud
 tags: journal
 timeline_date: 2019-05-15
+publish: true
 ---
 
 Always got a beat in my head

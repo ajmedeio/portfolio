@@ -2,6 +2,7 @@
 title: First Breath
 tags: journal
 timeline_date: 2019-05-16
+publish: true
 ---
 
 Chaos enthralls us

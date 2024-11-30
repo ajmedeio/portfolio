@@ -2,6 +2,7 @@
 title: Atlas
 tags: journal
 timeline_date: 2019-05-23
+publish: true
 ---
 
 There's something wrong with this world

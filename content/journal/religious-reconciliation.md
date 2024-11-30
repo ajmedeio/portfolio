@@ -2,6 +2,7 @@
 title: Religious Reconciliation
 tags: journal
 timeline_date: 2023-01-01
+publish: true
 ---
 Dear journal,
 

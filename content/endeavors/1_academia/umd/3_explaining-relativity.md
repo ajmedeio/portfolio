@@ -1,6 +1,7 @@
 ---
 title: Explaining Relativistic E&M
 tags: umd
+publish: true
 ---
 
 Disclaimer: I apologize there's no playback controls! I made this as an extra honors assignment in my Introduction to Electricity & Magnetism class. As an honors student, we were responsible for extra assignments due at the end of the year. This was one of those assignments.

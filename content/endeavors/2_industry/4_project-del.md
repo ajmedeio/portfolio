@@ -1,6 +1,7 @@
 ---
 title: Project Del
 tags: internet-of-things, startup, biobell, industry
+publish: true
 ---
 **Position:** Startup Founder & Full-stack IoT Software Engineer<br/>
 **Time and Place:** May 2017 – May 2018 | Leesburg, VA<br/>

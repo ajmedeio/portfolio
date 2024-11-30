@@ -1,6 +1,7 @@
 ---
 title: B.S. Physics & Computer Science with Honors
 tags: umd, dcc
+publish: true
 ---
 In 2017, I graduated from the University of Maryland with Honors from Design Cultures & Creativity as a Bachelor of Science in Physics & Computer Science.
 

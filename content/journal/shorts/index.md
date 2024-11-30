@@ -1,3 +1,4 @@
 ---
 title: Shorts
+publish: true
 ---

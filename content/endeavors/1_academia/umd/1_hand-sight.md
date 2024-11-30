@@ -1,6 +1,7 @@
 ---
 title: HandSight
 tags: research, umd
+publish: true
 ---
 At the beginning of my senior year of undergrad, I joined University of Maryland's Human-Computer Interaction Lab under Jon Froehlich. In summary, I studied finger-mounted cameras to aid hard-of-sight individuals in determining clothing patterns and color. Using the Caffe Deep Learning framework, I designed, trained, and tested a neural network to classify clothing pattern in real-time. The model classified ~30 pieces of clothing across 12 different textures exceeding 95% accuracy.
 

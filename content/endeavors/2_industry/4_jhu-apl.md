@@ -1,6 +1,7 @@
 ---
 title: Johns Hopkins University Applied Physics Lab
 tags: jhu-apl, industry
+publish: true
 ---
 **Position:** Junior Researcher<br/>
 **Time and Place:** September 2013 - May 2018 | Laurel, MD<br/>

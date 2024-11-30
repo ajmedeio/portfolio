@@ -2,6 +2,7 @@
 title: Single File
 tags: journal
 timeline_date: 2019-05-06
+publish: true
 ---
 
 Went to a wedding this weekend

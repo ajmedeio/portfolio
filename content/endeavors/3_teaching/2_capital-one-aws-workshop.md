@@ -1,6 +1,7 @@
 ---
 title: AWS Workshop
 tags: capital-one, teaching
+publish: true
 ---
 Capital One had a program called TDP (Technical Development Program) that hired and trained STEM related majors (non computer science) in software engineering. After an initial bootcamp they were rotated into teams that accepted them. I initiated a workshop that met every Tuesday and prepped TDPs for their AWS Associate Architect Certification exam.
 

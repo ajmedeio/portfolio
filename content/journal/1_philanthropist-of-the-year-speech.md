@@ -1,6 +1,7 @@
 ---
 title: Philanthropist of the Year Award Presenter Speech
 tags: ritas-closet, journal
+publish: true
 ---
 > [!info] INCOMPLETE
 > 

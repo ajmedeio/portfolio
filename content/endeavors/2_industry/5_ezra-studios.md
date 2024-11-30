@@ -1,6 +1,7 @@
 ---
 title: Ezra Media Studios
 tags: ezra-studios, industry
+publish: true
 ---
 **Position:** Lead Software Engineer<br/>
 **Time and Place:** March 2018 - August 2018 | New York, NY<br/>

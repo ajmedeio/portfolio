@@ -2,6 +2,7 @@
 title: Past Tears
 tags: journal
 timeline_date: 2019-05-18
+publish: true
 ---
 
 Sometimes we forget the scales that we wear

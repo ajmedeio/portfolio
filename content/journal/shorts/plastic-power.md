@@ -2,6 +2,7 @@
 title: Plastic Power
 tags: journal
 timeline_date: 2019-05-13
+publish: true
 ---
 
 These days, plastic is power

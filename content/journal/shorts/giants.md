@@ -2,6 +2,7 @@
 title: Giants
 tags: journal
 timeline_date: 2019-05-12
+publish: true
 ---
 
 As small as Jack at the beanstalk...
