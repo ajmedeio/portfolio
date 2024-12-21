@@ -9,3 +9,10 @@ tsconfig.tsbuildinfo
 private
 .replit
 replit.nix
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/portfolio.iml
+/.idea/prettier.xml
+/.idea/codeStyles/Project.xml
+/.idea/vcs.xml
