@@ -1,5 +1,5 @@
 ---
-title: Morning Musings 6
+title: Morning Musings 7
 tags: journal
 timeline_date: 2024-12-19
 publish: true
