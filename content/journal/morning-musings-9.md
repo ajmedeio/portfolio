@@ -1,5 +1,5 @@
 ---
-title: Morning Musings 8
+title: Morning Musings 9
 tags: journal
 timeline_date: 2025-01-04
 publish: 2025-01-05
