@@ -2,7 +2,7 @@
 title: Morning Musings 8
 tags: journal
 timeline_date: 2025-01-04
-publish: 2025-01-05
+publish: 2025-01-04
 ---
 
 Dear Rita,
@@ -48,7 +48,7 @@ I cry out, I'm so tired. I wish she were back, please Rita, come back...
 why did you have to leave us. Why\
 why\
 why\
-why\
+why
 
 The prozac seems to reduce the noise. It let me hear my pain instead of like a flashbang, being stunned and incapable of hearing the voices. I feel her death in my gut.
 It's the reason I've had digestive issues for more than a decade. I haven't massaged the knot out of my gut. I felt it in my gut in the past couple weeks. I felt the pain.
