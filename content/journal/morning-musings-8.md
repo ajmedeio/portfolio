@@ -14,7 +14,7 @@ I don't remember things as well, I feel like I'm floating through life sometimes
 inherently bad. I also feel happier, more appreciative, more flexible, less rigid, and generally better at going through the motions. I don't constantly contemplate
 if I'm using my time wisely. I don't constantly worry about money. I used to check my bank account every week or more. Now, I check it every couple weeks or less.
 
-Over winter break, my wife and friends went to out usual end of year festival, Hijinx. There were a lot of familiar faces and then some. More importantly, though,
+Over winter break, my wife and friends went to our usual end of year festival, Hijinx. There were a lot of familiar faces and then some. More importantly, though,
 we watched a show called Arcane with Bryan and Michelle. This show is about a family of two daughters and a father figure. He raised them in the Undercity with little resources,
 but he was a bar owner and kept them fed and out of trouble, the best he could. Unfortunately, these sisters weren't gonna let Topside treat the Undercity the way it has
 and they made a plan to fight back. They traveled to Topside and stole some next generation explosives from a government lab. During an Undercity turf war, 
