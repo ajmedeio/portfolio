@@ -104,8 +104,7 @@ it when Rita would drive us to school. Rita and I, although mortal enemies, resp
 Toward the end of her life, Rita and I worked at the same Auntie Anne's Pretzel Shop. It was only a few times before she passed that the both of us worked together, just the two
 of us and closed the store. We were good at it. We worked together well. We didn't do things the same way, but this was a professional atmosphere and we weren't going
 to let our differences stop us from being the best team there was. When it actually came time to do the right thing, Rita and I were a solid team. Fighting the scaries
-away for Emily. Emily didn't have the life we had. She was molested starting at a young age. She was afraid of the dark because of it. We had no idea... We just
-knew we had to protect her. Emily, if you ever read this, I love you forever, and I'm sorry our childhood happened the way it did.
+away for Emily. Emily, if you ever read this, I love you forever, and I'm sorry our childhood happened the way it did.
 
 Sincerely,\
 Alex
