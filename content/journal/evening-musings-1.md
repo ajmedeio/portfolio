@@ -7,7 +7,7 @@ publish: 2025-01-08
 
 Dear Journal,
 
-I read [(Morning Musings)] 8 to Jane today. What a difficult read... Oh, Rita. I hate you? Hahahaha, that feels better...
+I read ![[Morning Musings 8]] to Jane today. What a difficult read... Oh, Rita. I hate you? Hahahaha, that feels better...
 
 Damn it, I loved you so much and I didn't even know. Hating is easier than losing.
 
