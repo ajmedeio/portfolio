@@ -1,11 +1,12 @@
 ---
 title: Philanthropist of the Year Award Presenter Speech
 tags: ritas-closet, journal
+timeline_date: 2023-09-15
 publish: true
 ---
 > [!info] INCOMPLETE
 > 
-> Add context and link to the foundation's website and picture of night
+> TODO: Add context and link to the foundation's website and picture of night
 
 Good evening everyone!
   
