@@ -1,6 +1,7 @@
 ---
 title: Project Del
 tags: internet-of-things, startup, biobell, industry
+timeline_date: 2017-05-01
 publish: true
 ---
 **Position:** Startup Founder & Full-stack IoT Software Engineer<br/>

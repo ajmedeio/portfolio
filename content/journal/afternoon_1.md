@@ -1,6 +1,6 @@
 ---
 title: Afternoon entry 1
-publish_date: 2025-12-20
+timeline_date: 2025-12-20
 tags: journal
 publish: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: GWU | Software Engineering Instructor
 tags: teaching, gwu
+timeline_date: 2021-11-01
 publish: true
 ---
 **Organization:** George Washington University<br/>

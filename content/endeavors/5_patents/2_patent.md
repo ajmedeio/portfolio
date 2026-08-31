@@ -1,6 +1,7 @@
 ---
 title: Multi-boot architecture for electronic interaction device
 tags: capital-one, patent
+timeline_date: 2022-10-06
 publish: true
 ---
 > [!info] INCOMPLETE

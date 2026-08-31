@@ -1,6 +1,7 @@
 ---
 title: Ezra Media Studios
 tags: ezra-studios, industry
+timeline_date: 2018-03-01
 publish: true
 ---
 **Position:** Lead Software Engineer<br/>

@@ -1,6 +1,7 @@
 ---
 title: FINRA
 tags: finra, industry
+timeline_date: 2022-06-01
 publish: true
 ---
 **Position:** Senior Software Engineering Researcher<br/>

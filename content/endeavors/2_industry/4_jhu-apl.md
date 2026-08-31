@@ -1,6 +1,7 @@
 ---
 title: Johns Hopkins University Applied Physics Lab
 tags: jhu-apl, industry
+timeline_date: 2013-09-01
 publish: true
 ---
 **Position:** Junior Researcher<br/>

@@ -1,6 +1,7 @@
 ---
 title: Methods and Systems for Conducting an Electronic Competition
 tags: capital-one, patent
+timeline_date: 2022-12-01
 publish: true
 ---
 > [!info] INCOMPLETE

@@ -19,6 +19,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     //Component.ContentMeta(), Date published and time to read
     Component.TagList(),
+    Component.Timeline(),
   ],
   left: [
     Component.PageTitle(),

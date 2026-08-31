@@ -1,6 +1,7 @@
 ---
 title: Explaining Relativistic E&M
 tags: umd
+timeline_date: 2015-05-01
 publish: true
 ---
 

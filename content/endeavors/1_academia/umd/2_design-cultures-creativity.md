@@ -1,6 +1,7 @@
 ---
 title: Design Cultures & Creativity
 tags: dcc, umd
+timeline_date: 2013-09-01
 publish: true
 ---
 > [!info] INCOMPLETE

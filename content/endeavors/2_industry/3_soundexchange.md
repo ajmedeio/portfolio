@@ -1,6 +1,7 @@
 ---
 title: SoundExchange
 tags: soundexchange, industry
+timeline_date: 2020-09-01
 publish: true
 ---
 **Position:** Senior Software Engineer<br/>

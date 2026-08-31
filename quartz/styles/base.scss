@@ -159,7 +159,9 @@ a {
 
   & .center {
     width: 100%;
+    min-width: 0;
     padding: 0 32px;
+    box-sizing: border-box;
   }
 }
 

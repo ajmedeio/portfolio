@@ -7,8 +7,11 @@ async function mouseEnterHandler(
   { clientX, clientY }: { clientX: number; clientY: number },
 ) {
   const link = this
+  const isTimeline = link.closest(".timeline") !== null
+
   async function setPosition(popoverElement: HTMLElement) {
     const { x, y } = await computePosition(link, popoverElement, {
+      strategy: isTimeline ? "fixed" : "absolute",
       middleware: [inline({ x: clientX, y: clientY }), shift(), flip()],
     })
     Object.assign(popoverElement.style, {
@@ -17,11 +20,21 @@ async function mouseEnterHandler(
     })
   }
 
+  // For timeline links, check for body-appended popover
+  if (isTimeline) {
+    const existingPopover = document.querySelector(
+      `.popover[data-popover-for="${link.dataset.slug}"]`,
+    ) as HTMLElement | null
+    if (existingPopover) {
+      return setPosition(existingPopover)
+    }
+  }
+
   const hasAlreadyBeenFetched = () =>
     [...link.children].some((child) => child.classList.contains("popover"))
 
   // dont refetch if there's already a popover
-  if (hasAlreadyBeenFetched()) {
+  if (!isTimeline && hasAlreadyBeenFetched()) {
     return setPosition(link.lastChild as HTMLElement)
   }
 
@@ -42,7 +55,7 @@ async function mouseEnterHandler(
     })
 
   // bailout if another popover exists
-  if (hasAlreadyBeenFetched()) {
+  if (!isTimeline && hasAlreadyBeenFetched()) {
     return
   }
 
@@ -60,7 +73,34 @@ async function mouseEnterHandler(
   elts.forEach((elt) => popoverInner.appendChild(elt))
 
   setPosition(popoverElement)
-  link.appendChild(popoverElement)
+
+  if (isTimeline) {
+    // Append to body so the popover escapes sidebar stacking contexts
+    popoverElement.style.position = "fixed"
+    popoverElement.style.zIndex = "9999"
+    popoverElement.dataset.popoverFor = link.dataset.slug ?? ""
+    document.body.appendChild(popoverElement)
+
+    // Show the popover immediately
+    popoverElement.style.visibility = "visible"
+    popoverElement.style.opacity = "1"
+
+    // Hide on mouse leave from both link and popover
+    let hideTimeout: ReturnType<typeof setTimeout>
+    const scheduleHide = () => {
+      hideTimeout = setTimeout(() => {
+        popoverElement.style.visibility = "hidden"
+        popoverElement.style.opacity = "0"
+      }, 100)
+    }
+    const cancelHide = () => clearTimeout(hideTimeout)
+
+    link.addEventListener("mouseleave", scheduleHide)
+    popoverElement.addEventListener("mouseenter", cancelHide)
+    popoverElement.addEventListener("mouseleave", scheduleHide)
+  } else {
+    link.appendChild(popoverElement)
+  }
 
   if (hash !== "") {
     const heading = popoverInner.querySelector(hash) as HTMLElement | null
@@ -72,9 +112,13 @@ async function mouseEnterHandler(
 }
 
 document.addEventListener("nav", () => {
+  // Clean up body-appended timeline popovers on navigation
+  document.querySelectorAll(".popover[data-popover-for]").forEach((el) => el.remove())
+
   const links = [...document.getElementsByClassName("internal")] as HTMLLinkElement[]
   for (const link of links) {
     link.removeEventListener("mouseenter", mouseEnterHandler)
     link.addEventListener("mouseenter", mouseEnterHandler)
   }
 })
+

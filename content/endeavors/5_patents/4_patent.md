@@ -1,6 +1,7 @@
 ---
 title: Systems and methods for securely generating and printing a document
 tags: capital-one, patent
+timeline_date: 2023-11-28
 publish: true
 ---
 > [!info] INCOMPLETE

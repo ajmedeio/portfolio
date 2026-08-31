@@ -1,6 +1,7 @@
 ---
 title: Capital One
 tags: capital-one, industry
+timeline_date: 2019-05-01
 publish: true
 ---
 **Position:** Lead Senior Software Engineer<br/>
